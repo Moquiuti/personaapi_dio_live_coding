@@ -1,16 +1,13 @@
 package one.digitalinnovation.personalapi;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@RestController
-@RequestMapping("/api/v1/people")
+@SpringBootApplication
 public class PersonalapiApplication {
 
-    @GetMapping
-    public String getBook() {
-        return "API Rest";
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(PersonalapiApplication.class, args);
+	}
 
 }
