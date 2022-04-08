@@ -1,5 +1,6 @@
 package one.digitalinnovation.personalapi.enums;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
